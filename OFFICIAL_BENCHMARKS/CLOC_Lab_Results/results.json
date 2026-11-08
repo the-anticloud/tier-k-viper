@@ -1,0 +1,22 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "K_VIPER",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 2033,
+    "total_source_lines": 102393,
+    "languages": {
+      "Go": 367,
+      "JavaScript": 19,
+      "Python": 1,
+      "Objective-C": 1
+    },
+    "primary_language": "Go",
+    "language_count": 4,
+    "lines_per_file": 50.4,
+    "status": "PASS"
+  }
+}

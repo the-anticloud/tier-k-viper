@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_VIPER",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "bettercap/bettercap",
+  "commit": "8eca2820f3c4",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 46.69,
+      "min": 37.49,
+      "max": 55.97,
+      "all": [
+        55.97,
+        48.97,
+        44.04,
+        46.97,
+        37.49
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_VIPER (bettercap/bettercap) \u2014 2033 files, 102393 source lines, licence GPL-3.0, primary language ['Go']",
+      "token_count": 38,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "viper",
+        "(",
+        "better",
+        "##cap",
+        "/",
+        "better",
+        "##cap",
+        ")",
+        "\u2014",
+        "203",
+        "##3",
+        "files",
+        ",",
+        "102",
+        "##39",
+        "##3",
+        "source"
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5841,
+      "classification_latency_ms": 62.26,
+      "status": "PASS"
+    }
+  }
+}

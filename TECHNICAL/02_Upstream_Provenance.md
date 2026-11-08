@@ -1,0 +1,28 @@
+# Upstream Provenance
+
+**Project:** `K_VIPER`  
+**Tier:** TIER_6_SECURITY_EVAL  
+**Identity:** Upstream `bettercap/bettercap` @ `8eca2820f3c4` (GPL-3.0)
+
+## Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `bettercap/bettercap` |
+| Commit | `8eca2820f3c41d2004434ed5a291d87462caeeb7` |
+| Upstream licence | GPL-3.0 |
+| Licence class | copyleft |
+| Clone size | 43.13 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1500.0 IIU |
+| Verified upstream edits | 1 |
+
+## Obligation
+
+`K_VIPER` is vendored under GPL-3.0 (copyleft). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+`anticloud-edits.json`; the notice of changes is at the project `NOTICE.md`.
+Where the licence class is `unknown`, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.
